@@ -1,4 +1,4 @@
-// smooth scroll for all anchor links
+
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       const targetId = this.getAttribute('href');
@@ -23,7 +23,7 @@
       e.preventDefault();
       const name = document.getElementById('name')?.value.trim();
       if(name) {
-        alert(`✨ Thanks ${name}! I'll get back to you within 24 hours. Let's build something great.`);
+        alert(`Thanks ${name}! I'll get back to you within 24 hours. Let's build something great.`);
         form.reset();
       } else {
         alert("Please enter your name to proceed.");
