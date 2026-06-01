@@ -6,36 +6,46 @@
   <title>Saqib Yousaf — Web Dev & Ads Expert | Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="image/android-chrome-512x512.png">
-
   
 </head>
 <body>
 
 <nav>
-  <div class="nav-logo">✦ Saqib</div>
+  <div class="nav-logo">S<span class="maroon-text">Y</span></div>
   <div class="nav-links">
     <a href="#home">Home</a>
     <a href="#about">About</a>
+    <a href="#experience">Experience</a>
     <a href="#skills">Skills</a>
-    <a href="#pricing">Pricing</a>
     <a href="#contact">Contact</a>
   </div>
-  <button class="nav-cta" id="hireBtn">Hire me</button>
+  <a href="https://wa.me/923222111938" target="_blank" class="nav-cta" id="whatsappBtn">
+  <!-- Added inline style to scale up the icon size cleanly -->
+  <i class="fa-brands fa-whatsapp" style="font-size: 1.15rem;"></i> Contact Now
+</a>
 </nav>
 
-<!-- HERO SECTION -->
 <section id="home" class="hero">
+  <div id="canvas-container"></div>
+  
+  <div class="vector-bg">
+    <svg width="100%" height="100%" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="400" cy="400" r="350" stroke="rgba(128, 0, 32, 0.15)" stroke-width="1" stroke-dasharray="10 15"/>
+      <circle cx="400" cy="400" r="250" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1"/>
+    </svg>
+  </div>
+
   <div class="hero-grid">
     <div class="hero-left">
       <div class="hero-tag">
         <i class="fa-solid fa-bolt"></i> Available for freelance
       </div>
-      <h1>Saqib <span class="gold">Yousaf</span><br>Digital Architect</h1>
-      <p class="hero-sub">Web developer & Facebook Ads specialist — turning clicks into conversions and code into immersive experiences.</p>
+      <h1>Saqib <span class="maroon-text">Yousaf</span><br><i>Digital Architect</i></h1>
+      <p class="hero-sub">Web developer & Facebook Ads specialist — turning clicks into conversions and code into immersive digital experiences.</p>
       <div class="hero-btns">
         <a href="#contact" class="btn-primary"><i class="fa-regular fa-paper-plane"></i> Let's talk</a>
         <a href="#skills" class="btn-ghost"><i class="fa-regular fa-eye"></i> Explore work</a>
@@ -43,21 +53,37 @@
     </div>
     <div class="hero-img">
       <div class="img-wrapper">
-        <img src="image/WhatsApp Image 2025-12-10 at 7.38.49 PM.jpeg" alt="Saqib Yousaf profile">
+        <img src="image/Gemini_Generated_Image_jwv921jwv921jwv9.png" alt="Saqib Yousaf profile">
       </div>
       <div class="floating-badge">
-        <i class="fa-solid fa-code"></i> 4+ years impact
+        <i class="fa-solid fa-code"></i> 2+ years impact
       </div>
     </div>
   </div>
 </section>
 
-<!-- ABOUT SECTION enhanced -->
+<div class="marquee-ticker">
+  <div class="ticker-wrap">
+    <span>• FRONTEND ARCHITECTURE</span> 
+    <span>• META ADS COMPLIANCE</span> 
+    <span>• DATA FUNNEL OPTIMIZATION</span> 
+    <span>• PHP BACKEND SECURITY</span> 
+    <span>• CONVERSION RATE OPTIMIZATION</span> 
+    <span>• ROI DESIGN</span>
+    <span>• FRONTEND ARCHITECTURE</span> 
+    <span>• META ADS COMPLIANCE</span> 
+    <span>• DATA FUNNEL OPTIMIZATION</span> 
+    <span>• PHP BACKEND SECURITY</span> 
+    <span>• CONVERSION RATE OPTIMIZATION</span> 
+    <span>• ROI DESIGN</span>
+  </div>
+</div>
+
 <section id="about" class="about">
   <div class="container">
     <div class="section-header">
       <span class="label"><i class="fa-regular fa-user"></i> Who I am</span>
-      <h2>Crafting digital <span class="gold-text">narratives</span></h2>
+      <h2>Crafting digital <span class="maroon-text">narratives</span></h2>
     </div>
     <div class="about-grid">
       <div class="about-text">
@@ -74,96 +100,185 @@
   </div>
 </section>
 
-<!-- SKILLS modern -->
+<section id="experience" class="experience">
+  <div class="container">
+    <div class="section-header">
+      <span class="label"><i class="fa-solid fa-briefcase"></i> Journey</span>
+      <h2>Professional <span class="maroon-text">Experience</span></h2>
+    </div>
+    
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Jan 2025 – Present</div>
+        <div class="timeline-content">
+          <h3>Meta Ads Expert</h3>
+          <p class="company">Elvora Marketing Agency</p>
+          <p>Manage end-to-end Facebook and Instagram advertising campaigns focused on lead generation, audience growth, and business development. Oversee the agency's social media presence by creating engaging content, reels, and marketing strategies that increase visibility and engagement. Responsibilities include audience research, campaign optimization, performance analysis, and lead collection to ensure maximum return on advertising spend.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Jan 2025 – Present</div>
+        <div class="timeline-content">
+          <h3>Social Media & Meta Ads Specialist</h3>
+          <p class="company">Elvora Powers</p>
+          <p>Manage social media marketing and Meta advertising campaigns aimed at recruitment, lead generation, and brand awareness. Create and execute content strategies, promotional campaigns, and audience-targeting initiatives across Facebook and Instagram. Optimize ad performance, monitor campaign analytics, generate quality leads, and improve conversion rates to boost business growth.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Jan 2024 – Present</div>
+        <div class="timeline-content">
+          <h3>Freelance Front-End Developer & Meta Ads Expert</h3>
+          <p class="company">Fiverr</p>
+          <p>Provide professional website development and digital marketing services to clients worldwide. Specialize in designing and developing responsive portfolio websites, landing pages, and business websites using HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL. Manage data-driven Meta Ads campaigns focused on lead generation, precise audience targeting, and global brand awareness.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Jun 2025 – Present</div>
+        <div class="timeline-content">
+          <h3>PHP Developer Intern</h3>
+          <p class="company">Developer Hub Corporation</p>
+          <p>Work on developing and maintaining dynamic web applications using PHP, MySQL, HTML, CSS, Bootstrap, and JavaScript. Collaborate with development teams to build custom website functionalities, optimize database performance, resolve technical issues, integrate frontend interfaces smoothly with backend architecture, and enhance overall user experience.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
 <section id="skills" class="skills">
   <div class="container">
     <div class="section-header">
       <span class="label"><i class="fa-solid fa-chart-line"></i> Expertise</span>
-      <h2>What makes me <span class="gold-text">different</span></h2>
+      <h2>What makes me <span class="maroon-text">different</span></h2>
     </div>
-    <div class="skills-list">
-      <div class="skill-item">
-        <div class="skill-meta"><span>Full-stack web dev (React, Node, PHP)</span><span>94%</span></div>
-        <div class="skill-track"><div class="skill-fill" style="--w:94%"></div></div>
+    
+    <div class="skills-wheel-grid">
+      <!-- SKILL 1: Meta Ads Expert (96%) -> offset: 10.5 -->
+      <div class="skill-wheel-card">
+        <div class="card-visual-bg bg-meta"></div>
+        <div class="wheel-box">
+          <svg class="wheel-svg" viewBox="0 0 100 100">
+            <circle class="wheel-bg-circle" cx="50" cy="50" r="42"></circle>
+            <circle class="wheel-fill-circle" cx="50" cy="50" r="42" style="--p: 96; stroke-dashoffset: 10.56;"></circle>
+          </svg>
+          <div class="wheel-number">96%</div>
+        </div>
+        <h3>Meta Ads Expert</h3>
+        <p>Meta Suite, Scaled Campaigns, ROAS Opt. & Target Funnels</p>
       </div>
-      <div class="skill-item">
-        <div class="skill-meta"><span>Facebook ads / Meta Business Suite</span><span>87%</span></div>
-        <div class="skill-track"><div class="skill-fill" style="--w:87%"></div></div>
+
+      <!-- SKILL 2: PHP Developer (91%) -> offset: 23.7 -->
+      <div class="skill-wheel-card">
+        <div class="card-visual-bg bg-php"></div>
+        <div class="wheel-box">
+          <svg class="wheel-svg" viewBox="0 0 100 100">
+            <circle class="wheel-bg-circle" cx="50" cy="50" r="42"></circle>
+            <circle class="wheel-fill-circle" cx="50" cy="50" r="42" style="--p: 91; stroke-dashoffset: 23.76;"></circle>
+          </svg>
+          <div class="wheel-number">91%</div>
+        </div>
+        <h3>PHP Developer</h3>
+        <p>Backend Architecture, Custom APIs, & Database Systems</p>
       </div>
-      <div class="skill-item">
-        <div class="skill-meta"><span>UI/UX strategy & prototyping</span><span>79%</span></div>
-        <div class="skill-track"><div class="skill-fill" style="--w:79%"></div></div>
+
+      <!-- SKILL 3: UI/UX Strategy (79%) -> offset: 55.4 -->
+      <div class="skill-wheel-card">
+        <div class="card-visual-bg bg-ui"></div>
+        <div class="wheel-box">
+          <svg class="wheel-svg" viewBox="0 0 100 100">
+            <circle class="wheel-bg-circle" cx="50" cy="50" r="42"></circle>
+            <circle class="wheel-fill-circle" cx="50" cy="50" r="42" style="--p: 79; stroke-dashoffset: 55.44;"></circle>
+          </svg>
+          <div class="wheel-number">79%</div>
+        </div>
+        <h3>UI/UX Strategy</h3>
+        <p>High Fidelity Prototyping & Consumer Wireframes</p>
       </div>
-      <div class="skill-item">
-        <div class="skill-meta"><span>Conversion rate optimization</span><span>82%</span></div>
-        <div class="skill-track"><div class="skill-fill" style="--w:82%"></div></div>
+
+      <!-- SKILL 4: Conversion Rate Opt. (85%) -> offset: 39.6 -->
+      <div class="skill-wheel-card">
+        <div class="card-visual-bg bg-cro"></div>
+        <div class="wheel-box">
+          <svg class="wheel-svg" viewBox="0 0 100 100">
+            <circle class="wheel-bg-circle" cx="50" cy="50" r="42"></circle>
+            <circle class="wheel-fill-circle" cx="50" cy="50" r="42" style="--p: 85; stroke-dashoffset: 39.6;"></circle>
+          </svg>
+          <div class="wheel-number">85%</div>
+        </div>
+        <h3>Conversion Rate Opt.</h3>
+        <p>High Performance Copy & Interactive Direct Landing Pages</p>
+      </div>
+
+      <!-- SKILL 5: Ad Creative Design (92%) -> offset: 21.1 -->
+      <div class="skill-wheel-card">
+        <div class="card-visual-bg bg-meta"></div>
+        <div class="wheel-box">
+          <svg class="wheel-svg" viewBox="0 0 100 100">
+            <circle class="wheel-bg-circle" cx="50" cy="50" r="42"></circle>
+            <circle class="wheel-fill-circle" cx="50" cy="50" r="42" style="--p: 92; stroke-dashoffset: 21.12;"></circle>
+          </svg>
+          <div class="wheel-number">92%</div>
+        </div>
+        <h3>Ad Creative Design</h3>
+        <p>High-Converting Frameworks, Psychological Hooks & Visual Layouts</p>
+      </div>
+
+      <!-- SKILL 6: E-commerce Growth (88%) -> offset: 31.6 -->
+      <div class="skill-wheel-card">
+        <div class="card-visual-bg bg-cro"></div>
+        <div class="wheel-box">
+          <svg class="wheel-svg" viewBox="0 0 100 100">
+            <circle class="wheel-bg-circle" cx="50" cy="50" r="42"></circle>
+            <circle class="wheel-fill-circle" cx="50" cy="50" r="42" style="--p: 88; stroke-dashoffset: 31.68;"></circle>
+          </svg>
+          <div class="wheel-number">88%</div>
+        </div>
+        <h3>E-commerce Growth</h3>
+        <p>Scaling Shopify Platforms, Retention Funnels & Multi-Product Ads</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- PRICING elevated -->
-<section id="pricing" class="pricing">
-  <div class="container">
-    <div class="section-header">
-      <span class="label"><i class="fa-regular fa-credit-card"></i> Investment</span>
-      <h2>Simple, transparent <span class="gold-text">plans</span></h2>
-    </div>
-    <div class="pricing-grid">
-      <div class="pkg-card">
-        <h3 style="font-size:1.8rem;">Essential</h3>
-        <div class="pkg-price">$19<span>/mo</span></div>
-        <ul class="pkg-features">
-          <li><i class="fa-solid fa-check"></i> Landing page design</li>
-          <li><i class="fa-solid fa-check"></i> Basic FB ads setup</li>
-          <li><i class="fa-solid fa-check"></i> 5 GB cloud storage</li>
-          <li><i class="fa-solid fa-check"></i> Email support</li>
-        </ul>
-        <a href="#contact" class="pkg-btn">Start project →</a>
-      </div>
-      <div class="pkg-card featured">
-        <div class="pkg-badge">🔥 Most popular</div>
-        <h3 style="font-size:1.8rem;">Pro Growth</h3>
-        <div class="pkg-price">$49<span>/mo</span></div>
-        <ul class="pkg-features">
-          <li><i class="fa-solid fa-check"></i> Full website development</li>
-          <li><i class="fa-solid fa-check"></i> Advanced FB ad scaling</li>
-          <li><i class="fa-solid fa-check"></i> Unlimited revisions</li>
-          <li><i class="fa-solid fa-check"></i> Priority 24/7 support</li>
-          <li><i class="fa-solid fa-check"></i> Analytics dashboard</li>
-        </ul>
-        <a href="#contact" class="pkg-btn pkg-btn-dark">Get Pro plan →</a>
-      </div>
-      <div class="pkg-card">
-        <h3 style="font-size:1.8rem;">Custom</h3>
-        <div class="pkg-price">Let's<span> talk</span></div>
-        <ul class="pkg-features">
-          <li><i class="fa-solid fa-check"></i> Tailored solution</li>
-          <li><i class="fa-solid fa-check"></i> White-label ads manager</li>
-          <li><i class="fa-solid fa-check"></i> Dedicated developer</li>
-          <li><i class="fa-solid fa-check"></i> Strategy & consulting</li>
-        </ul>
-        <a href="#contact" class="pkg-btn">Contact →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT + modern form -->
 <section id="contact" class="contact">
   <div class="container">
     <div class="section-header">
       <span class="label"><i class="fa-regular fa-message"></i> Connect</span>
-      <h2>Let's build something <span class="gold-text">unforgettable</span></h2>
+      <h2>Let's build something <span class="maroon-text">unforgettable</span></h2>
     </div>
     <div class="contact-grid">
       <div class="contact-info">
-        <p style="margin-bottom: 1rem; font-size: 1rem;">Got a bold idea or a tricky challenge? I'm just a message away. Whether it's a high-conversion website or ad campaigns that hit ROAS targets — let's bring your vision to life.</p>
+        <p style="margin-bottom: 1.5rem; font-size: 1rem; line-height:1.7;">Got a bold idea or a tricky challenge? I'm just a message away. Drop a line here or catch me across my digital spaces below.</p>
+        
+        <div class="social-platforms-hub">
+          <p class="hub-title">Find me on</p>
+          <div class="social-icons-row">
+            <a href="https://github.com/saqib-yousaf-dev" target="_blank" aria-label="GitHub Profile" class="social-hub-btn">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="in/saqib-yousaf-4tie234" target="_blank" aria-label="LinkedIn Profile" class="social-hub-btn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/digital_saqib_yousaf/" target="_blank" aria-label="Instagram Profile" class="social-hub-btn">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61590443553727" target="_blank" aria-label="Facebook Profile" class="social-hub-btn">
+            <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
         <div class="contact-details">
           <div class="contact-item"><div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div><span>Multan, Pakistan — remote worldwide</span></div>
           <div class="contact-item"><div class="ci-icon"><i class="fa-solid fa-phone-alt"></i></div><span>+92 322 211 1938</span></div>
           <div class="contact-item"><div class="ci-icon"><i class="fa-regular fa-envelope"></i></div><span>muhammadsaqibyousaf7@gmail.com</span></div>
-          <div class="contact-item"><div class="ci-icon"><i class="fa-brands fa-skype"></i></div><span>@saqib-yousaf-dev</span></div>
         </div>
       </div>
       <form class="contact-form" id="contactForm">
@@ -180,12 +295,10 @@
 </section>
 
 <footer>
-  <p>© 2025 Rao Usman — Web Dev & Facebook Ads Architect. Built with <i class="fa-solid fa-heart" style="color: #c9a96e;"></i> in Multan.</p>
-  <p style="font-size: 0.7rem; margin-top: 6px;"><i class="fa-brands fa-github"></i> <i class="fa-brands fa-linkedin"></i> <i class="fa-brands fa-instagram"></i> — Let's connect</p>
+  <p>© 2026 Saqib Yousaf — Web Dev & Facebook Ads Architect.</p>
 </footer>
 
-<script src="index.js">
-  
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
