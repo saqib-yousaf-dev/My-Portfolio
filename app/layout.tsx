@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
   display: "swap",
 });
 
-const BASE_URL = "https://saqibyousaf.com"; // update to your actual domain
+const BASE_URL = "https://saqib-yousaf.vercel.app"; // update to your actual domain
 
 export const metadata: Metadata = {
   /* ── Core ── */
@@ -51,6 +51,11 @@ export const metadata: Metadata = {
   /* ── Canonical ── */
   alternates: {
     canonical: "/",
+  },
+
+  /* ── Google / Search Engine Verification ── */
+  verification: {
+    google: "ysZ9MF1qA7CQZwxOdUibcCdkG833s88yiudsei4pxKo",
   },
 
   /* ── Icons & Favicon Config ── */

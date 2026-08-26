@@ -1,5 +1,4 @@
 "use client";
-<meta name="google-site-verification" content="ysZ9MF1qA7CQZwxOdUibcCdkG833s88yiudsei4pxKo" />
 import { useEffect, useState } from "react";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 import Navbar from "@/components/Navbar";
