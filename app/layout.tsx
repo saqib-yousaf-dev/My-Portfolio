@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit, Space_Grotesk } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -179,6 +180,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased bg-[#ededed] text-[#111215]">
         {children}
+        <Analytics />
       </body>
     </html>
   );
